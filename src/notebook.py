@@ -14,6 +14,15 @@ class Note:
         self.creation_date : str = datetime.now()
         self.tags: list[str] = []
 
+        def add_tag(tag: str):
+            self.tags.append(tag)
+
+
+
+
+
+
+
 
 
 
